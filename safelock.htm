@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="safelock.css">
+	<title>SafeLock calculator</title>
+
+</head>
+<body>
+	<div id="container">
+		<a href='https://www.piggyvest.com'><img  src='./piggy.png'></a>
+		<h2 style="color:rgba(200,255,200,0.9)">Try Our SafeLock Interest Calculator</h2>
+	<form onSubmit="Calculate_my_interest(event)">
+		<p style="font-weight:bold"> How much</p>
+		<input class='block' type="text" id="amount" placeholder="How much in naira">
+		<p style="font-weight:bold">How Long</p>
+		<input type="text"  id="time" placeholder="How long">
+		<p>
+		<select id="select" name="howLong">
+			<option value="days">days</option>
+			<option value="months">months</option>
+			<option selected value="years">years</option>
+		</select>
+	</p>
+		<button class='block button' > Calculate My Interest</button>
+	</form>
+	<div id="result"></div>
+</div>
+	<script src="./safelock.js"></script>
+
+</body>
+</html>
