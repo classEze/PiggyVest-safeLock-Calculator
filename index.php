@@ -1,2 +1,3 @@
 <?php
-include_once("safelock.htm")
+include_once("home.htm");
+?>
